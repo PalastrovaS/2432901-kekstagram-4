@@ -72,5 +72,8 @@ const getPictures = () => Array.from (
   (_, pictureIndex) => createPicture(pictureIndex + 1),
 );
 
-export {getPictures};
+const pictures = getPictures();
+
+export { pictures };
+
 
